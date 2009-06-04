@@ -349,7 +349,7 @@ build: i686-pc-linux-gnu
 target: mipsel-android-linux-gnu
 __EOF__
       cat >> $file << \__EOF__
-configured with: .././gcc-4.2.4/configure --prefix=/home/build/android-toolchain/prebuilt/linux-x86/toolchain/mipsel-linux-4.2.4 --target=mipsel-android-linux --host=i686-pc-linux-gnu --build=i686-pc-linux-gnu --enable-languages=c,c++ --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --enable-target-optspace --with-newlib --with-gcc-version=4.2.4 --with-binutils-version=2.19.1 --prefix=/home/build/android-toolchain/prebuilt/linux-x86/toolchain/mipsel-linux-4.2.4 --with-sysroot=/home/build/android-toolchain/mipsel-sysroot --program-transform-name=s,^,mipsel-android-linux-,
+configured with: .././gcc-4.2.4/configure --prefix=/home/build/android-toolchain/prebuilt/linux-x86/toolchain/mipsel-linux-4.2.4 --target=mipsel-android-linux --host=i686-pc-linux-gnu --build=i686-pc-linux-gnu --enable-languages=c,c++ --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --with-float=soft --enable-target-optspace --with-newlib --with-gcc-version=4.2.4 --with-binutils-version=2.19.1 --prefix=/home/build/android-toolchain/prebuilt/linux-x86/toolchain/mipsel-linux-4.2.4 --with-sysroot=/home/build/android-toolchain/mipsel-sysroot --program-transform-name=s,^,mipsel-android-linux-,
 __EOF__
       cat >> $file << __EOF__
 >Description:
